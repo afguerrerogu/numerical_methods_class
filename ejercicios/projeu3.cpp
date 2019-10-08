@@ -28,7 +28,8 @@ int largest_prime_factor(long long m)
 {
  	int kk=0;
 
-     	for (int ii=2; ii<=m;++ii){
+     	for (int ii=3; ii<=std::sqrt(m);ii=ii+2){
+		std::cout<<ii<<std::endl;
 	  if (isprime(ii)==1 && m%ii==0){
 		  kk=ii;
 	  }

@@ -6,7 +6,7 @@ int main(void)
     int y{0};
     int x{0};
     int sum{0};
-    for (int i = 0; i < 10000; i++)
+    for (int i = 0; i < 1000; i++)
     {
         x=i%3;
         y=i%5;
